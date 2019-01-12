@@ -22,3 +22,6 @@ git push origin master
 
 # Come Back up to the Project Root
 cd ..
+
+# prompt from user to keep open
+read
