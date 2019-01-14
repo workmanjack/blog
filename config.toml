@@ -69,15 +69,15 @@ canonifyurls = false
     url = "portfolio"
     weight = 10
 
-  [[menu.main]]
-    name = "Readings"
-    url = "readings"
-    weight = 10
+#  [[menu.main]]
+#    name = "Readings"
+#    url = "readings"
+#    weight = 10
 
-  [[menu.main]]
-    name = "Running"
-    url = "running"
-    weight = 10
+#  [[menu.main]]
+#    name = "Running"
+#    url = "running"
+#    weight = 10
 
   [[menu.main]]
     name = "About"
