@@ -1,4 +1,4 @@
-baseURL = "http://workmanjack.github.io/blog"
+baseURL = "https://workmanjack.github.io/blog"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "Jack's Blog"
