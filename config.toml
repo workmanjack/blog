@@ -35,7 +35,7 @@ canonifyurls = false
   # images = [""]
   themeColor = "#494f5c"
 
-  homeSubtitle = "test."
+  homeSubtitle = "Welcome!"
   footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   # bgImg = ""  # Homepage background-image URL
 
@@ -51,22 +51,32 @@ canonifyurls = false
   # Social Icons
   # Check https://github.com/Track3/hermit#social-icons for more info.
   [[params.social]]
-    name = "github"
-    url = "https://github.com/workmanjack"
+    name = "email"
+    url = "mailto:jackcworkman@gmail.com"
 
   [[params.social]]
     name = "linkedin"
     url = "https://www.linkedin.com/in/jackcworkman/"
 
   [[params.social]]
-    name = "email"
-    url = "mailto:jackcworkman@gmail.com"
+    name = "github"
+    url = "https://github.com/workmanjack"
 
 [menu]
 
   [[menu.main]]
-    name = "Posts"
-    url = "posts"
+    name = "Portfolio"
+    url = "portfolio"
+    weight = 10
+
+  [[menu.main]]
+    name = "Readings"
+    url = "readings"
+    weight = 10
+
+  [[menu.main]]
+    name = "Running"
+    url = "running"
     weight = 10
 
   [[menu.main]]
