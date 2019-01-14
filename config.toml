@@ -1,4 +1,4 @@
-baseURL = "https://www.jackcworkman.com/blog"
+baseURL = "https://www.jackcworkman.com/blog/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "Jack's Blog"
@@ -12,6 +12,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
 # googleAnalytics = "UA-123-45"
 # disqusShortname = "yourdiscussshortname"
+canonifyurls = false
 
 [author]
   name = "Jack Workman"
@@ -65,10 +66,10 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 
   [[menu.main]]
     name = "Posts"
-    url = "posts/"
+    url = "posts"
     weight = 10
 
   [[menu.main]]
     name = "About"
-    url = "blog/about/"
+    url = "about/"
     weight = 20
